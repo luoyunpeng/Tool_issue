@@ -16,3 +16,8 @@
 	</plugin> 
 </plugins>
  
+2 maven 出现Duplicating managed version
+这个警告出现的时候，我找了一圈发现我只有一处定义了这个依赖。 
+我开始以为是重复定义了依赖。 
+细看后才发现，原来是重复定义了版本，知道原因了，那就好弄了。 
+我这个工程是spring Cloud的应用，原来在父的pom文件中已经定义了，果断删除当前依赖的version，整个世界干净了。
