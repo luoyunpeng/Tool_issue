@@ -1,9 +1,9 @@
-<< ÏîÄ¿Ñ§Ï°×ÊÔ´¼°ÎÊÌâ¼ÇÂ¼ >>
+<< é¡¹ç›®å­¦ä¹ èµ„æºåŠé—®é¢˜è®°å½• >>
 ============================
 
 ## This repo show the solution of the issue of using maven, eclipse and spring tools
 ## And some learing resources
 
-[Learning Spring boot] (http://www.cnblogs.com/larryzeal/p/5765945.html)
+[Learning Spring boot](http://www.cnblogs.com/larryzeal/p/5765945.html)
 
-[Spring boot Chinese doc] (http://www.cnblogs.com/larryzeal/p/5799195.html)
+[Spring boot Chinese doc](http://www.cnblogs.com/larryzeal/p/5799195.html)
