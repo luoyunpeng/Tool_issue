@@ -1,0 +1,4 @@
+1, open remote access
+use mysql;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123' WITH GRANT OPTION;
+FLUSH   PRIVILEGES;
