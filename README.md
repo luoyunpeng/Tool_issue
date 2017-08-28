@@ -1,4 +1,4 @@
-<< 项目学习资源及问题记录 >>
+项目学习资源及问题记录
 ============================
 
 ## This repo show the solution of the issue of using maven, eclipse and spring tools
