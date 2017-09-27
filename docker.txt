@@ -2,3 +2,8 @@
 centos7 配置如下：
 在docker.service文件中找到 ExecStart= 这一行，并且在其行尾添加上所需的配置。配置：
 ExecStart=/usr/bin/dockerd --registry-mirror=https://registry.docker-cn.com
+
+2, docker  pull 本地系统时间错误导致报错证书过期, solution as following:
+yum -y install ntpdate
+ntpdate cn.pool.ntp.org
+
