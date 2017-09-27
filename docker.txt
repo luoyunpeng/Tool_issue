@@ -1,0 +1,4 @@
+1, 从2017年6月9日起，Docker 官方提供了在中国的加速器，以解决墙的问题。不用注册，直接使用加速器地址：https://registry.docker-cn.com.
+centos7 配置如下：
+在docker.service文件中找到 ExecStart= 这一行，并且在其行尾添加上所需的配置。配置：
+ExecStart=/usr/bin/dockerd --registry-mirror=https://registry.docker-cn.com
