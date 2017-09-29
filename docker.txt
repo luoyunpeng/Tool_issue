@@ -9,3 +9,9 @@ ExecStart=/usr/bin/dockerd --registry-mirror=https://registry.docker-cn.com
 yum -y install ntpdate
 ntpdate cn.pool.ntp.org
 
+3, modify cenos7 hostname
+
+hostnamectl set-hostname 'name'
+
+4, create useable docker registry, add following configuration in docker.service at "ExecStart=/usr/bin/dockerd ....." on every docker swarm node
+--insecure-registry ip:5000
